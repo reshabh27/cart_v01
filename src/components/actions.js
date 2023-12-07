@@ -1,22 +1,6 @@
-
-
-export const addItem = (dispatch, item) => {
-  dispatch({ type: "ADD_ITEM", payload: item });
-};
-
-export const removeItem = (dispatch, item) => {
-  dispatch({ type: "REMOVE_ITEM", payload: item });
-};
-
-export const clearCart = (dispatch) => {
-  dispatch({ type: "CLEAR_CART" });
-};
-
-export const increaseAmount = (dispatch, item) => {
-  dispatch({ type: "INCREASE_AMOUNT", payload: item });
-};
-
-export const decreaseAmount = (dispatch, item) => {
-  dispatch({ type: "DECREASE_AMOUNT", payload: item });
-};
-
+export const CLEAR_CART = "CLEAR_CART";
+export const REMOVE = "REMOVE";
+export const INCREASE = "INCREASE";
+export const DECREASE = "DECREASE";
+export const LOADING = "LOADING";
+export const DISPLAY_ITEMS = "DISPLAY_ITEMS";
